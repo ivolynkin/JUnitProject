@@ -56,7 +56,7 @@ public class UtilsJUnit4Test {
     @Test(timeout=1000)
     public void testWithTimeout() {
          System.out.println("* UtilsJUnit4Test: test method 2 - testWithTimeout()");
-         final int factorialOf = 1 + (int) (30000 * Math.random());
+         final int factorialOf = 5 + (int) (30000 * Math.random());
          System.out.println("computing " + factorialOf + '!');
          System.out.println(factorialOf + "! = " + Utils.computeFactorial(factorialOf));
     }
